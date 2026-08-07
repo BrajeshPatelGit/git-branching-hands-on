@@ -1,0 +1,37 @@
+# Normalize line endings
+* text=auto                 
+# Auto-detect text files and normalize line endings
+
+# Source code
+*.js    text eol=lf         
+# JavaScript files - enforce LF line endings
+*.ts    text eol=lf         
+# TypeScript files - enforce LF line endings
+*.py    text eol=lf         
+# Python files - enforce LF line endings
+*.sh    text eol=lf         
+# Shell scripts - enforce LF line endings
+
+# Terraform & K8s
+*.tf    text eol=lf         
+# Terraform config files - enforce LF line endings
+*.yaml  text eol=lf         
+# YAML files - enforce LF line endings
+*.yml   text eol=lf         
+# YML files - enforce LF line endings
+
+# Docs
+*.md    text eol=lf         
+# Markdown files - enforce LF line endings
+
+# Binary files
+*.png   binary              
+# PNG images - treat as binary, skip diff/conversion
+*.jpg   binary              
+# JPG images - treat as binary, skip diff/conversion
+*.gif   binary              
+# GIF images - treat as binary, skip diff/conversion
+*.ico   binary              
+# Icon files - treat as binary, skip diff/conversion
+*.zip   binary              
+# ZIP archives - treat as binary, skip diff/conversion
