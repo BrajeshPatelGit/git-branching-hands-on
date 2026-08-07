@@ -33,7 +33,7 @@ Node.js 20, React, MySQL, Docker, Kubernetes (EKS), GitHub Actions, Terraform.
     cp .env.example .env
     docker compose up --build
 
-The app is available at http://localhost:5000
+The app is available at <http://localhost:5000>
 
 ## What I learned
 
