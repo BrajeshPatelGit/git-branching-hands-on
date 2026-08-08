@@ -10,7 +10,7 @@ GitHub Actions pipeline, with environment promotion from QA to production.
 
 ## Architecture
 
-![Architecture](docs/images/architecture.png)
+![Architecture](docs/images/arch.png)
 
 Traffic reaches an ALB provisioned by the AWS Load Balancer Controller,
 which routes to a ClusterIP service fronting the application pods. The
